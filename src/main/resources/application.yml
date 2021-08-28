@@ -1,0 +1,8 @@
+#확장자를 프로퍼티스로 안쓰는 이유는? yml로 바꾸면 이렇게 간단하게 쓸 수 있단다.
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=Asia/Seoul
+    username: kth
+    password: kth4865
